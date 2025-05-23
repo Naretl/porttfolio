@@ -1,0 +1,59 @@
+/* src/components/Skills.css */
+
+.skills {
+  width: 100vw;
+  padding: 4rem 2rem;
+  background-color: #eef2f3;
+  box-sizing: border-box;
+}
+
+.skills h2 {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #222;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.skill-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}
+
+.skill-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.skill-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Optional: Add dark mode support if needed */
+.dark .skills {
+  background-color: #1e1e1e;
+}
+
+.dark .skill-card {
+  background-color: #2a2a2a;
+}
+
+.dark .skill-card h3,
+.dark .skill-card p {
+  color: #ddd;
+}
