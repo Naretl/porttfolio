@@ -1,5 +1,5 @@
 
-import './Skills.css';
+import './skills.css';
 
 const Skills: React.FC = () => {
   const skills = [
