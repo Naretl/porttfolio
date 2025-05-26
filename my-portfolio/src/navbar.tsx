@@ -1,6 +1,6 @@
 // src/components/Navbar.tsx
 import React from 'react';
-import './Navbar.css';
+import './navbar.css';
 
 const Navbar: React.FC = () => {
   const scrollToSection = (id: string) => {

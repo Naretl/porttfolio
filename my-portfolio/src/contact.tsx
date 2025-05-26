@@ -1,5 +1,5 @@
 // src/components/Contact.tsx
-import './Contact.css';
+import './contact.css';
 
 const Contact: React.FC = () => {
   return (
